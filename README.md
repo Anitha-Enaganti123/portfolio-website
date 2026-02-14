@@ -1,73 +1,145 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Personal Portfolio Website – Anitha Enaganti
 
-Currently, two official plugins are available:
+A modern, responsive, and professional **personal portfolio website** built using **React + Vite**.  
+This portfolio showcases my skills, projects, education, and contact details in a clean and advanced UI suitable for placements and interviews.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👩‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am an **MCA Final Year student** and an **aspiring Data Analyst** with hands-on experience in real-world data analysis projects.  
+I am passionate about transforming raw data into meaningful insights using analytical and visualization tools.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Modern **glassmorphism UI**
+- Sticky navigation bar
+- Professional hero section
+- Skill progress indicators
+- Project showcase cards
+- Responsive design (mobile & desktop)
+- Clean and recruiter-friendly layout
+- Deployed using **Vercel**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** CSS3
+- **Version Control:** Git & GitHub
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+my-portfolio/
+├── index.html
+├── package.json
+├── vite.config.js
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+└── README.md
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+````
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 📊 Projects Included
+
+- **Netflix Content Analysis Dashboard**
+- **College Placement Data Analysis**
+- **Social Media Engagement Analysis**
+- **COVID-19 Data Analysis & Prediction**
+
+Each project focuses on real-world datasets, exploratory data analysis, and insight generation.
+
+---
+
+## 🚀 Getting Started (Run Locally)
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Anitha-Enaganti123/my-portfolio.git
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 Deployed on **Vercel**
+(Add your live Vercel link here once deployed)
+
+---
+
+## 📞 Contact
+
+* **Name:** Anitha Enaganti
+* **Email:** [anithaenaganti06@gmail.com](mailto:anithaenaganti06@gmail.com)
+* **Phone:** 8096467665
+* **Location:** Guntur, Andhra Pradesh, India
+* **GitHub:** [https://github.com/Anitha-Enaganti123](https://github.com/Anitha-Enaganti123)
+
+---
+
+## 📌 Future Enhancements
+
+* Dark / Light mode toggle
+* Scroll animations
+* Resume download button
+* Contact form integration
+
+---
+
+⭐ If you like this project, feel free to star the repository!
+
+```
+
+---
+
+# 📝 GitHub Repository Description (VERY IMPORTANT)
+
+Paste this in **GitHub → About → Description**:
+
+```
+
+Advanced personal portfolio website built with React and Vite showcasing projects, skills, and experience. Deployed on Vercel.
+
+```
+
+### 🔖 Optional Topics (Add in GitHub “Topics”)
+```
+
+react
+vite
+portfolio
+data-analyst
+frontend
+vercel
+
+```
+
+
+
+Just tell me 👍
 ```
