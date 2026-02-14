@@ -88,7 +88,7 @@ npm run dev
 ## 🌐 Live Demo
 
 👉 Deployed on **Vercel**
-(Add your live Vercel link here once deployed)
+www.anithaenaganti.veercel.app
 
 ---
 
